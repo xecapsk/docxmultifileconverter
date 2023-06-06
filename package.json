@@ -1,6 +1,6 @@
 {
   "name": "docxmultifileconverter",
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "Convert multiple Word documents from docx to plain HTML using Mammoth",
   "main": "bin/index.js",
   "scripts": {
@@ -8,6 +8,10 @@
   },
   "bin": {
     "multiconvert": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xecapsk/docxmultifileconverter.git"
   },
   "keywords": [
     "docx",
