@@ -1,0 +1,27 @@
+{
+  "name": "docxmultifileconverter",
+  "version": "0.1",
+  "description": "Convert multiple Word documents from docx to plain HTML using Mammoth",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "multiconvert": "bin/index.js"
+  },
+  "keywords": [
+    "docx",
+    "html",
+    "office",
+    "word",
+    "mammoth",
+    "multi",
+    "multiple"
+  ],
+  "author": "Kees Kemper",
+  "license": "ISC",
+  "dependencies": {
+    "args": "^5.0.3",
+    "mammoth": "^1.6.0"
+  }
+}
